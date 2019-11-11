@@ -41,14 +41,17 @@
     <header-file src="ios/GAIEcommerceProduct.h" />
     <header-file src="ios/GAIEcommerceProductAction.h" />
     <header-file src="ios/GAIEcommercePromotion.h" />
-
+    
+    <pop name="Google/Analytics"/>
+    <pop name="GoogleIDFASupport"/>
+    <!--
     <framework src="SystemConfiguration.framework" />
     <framework src="CoreData.framework" />
     <framework src="AdSupport.framework" />
     <framework src="libz.dylib" />
     <framework src="libsqlite3.dylib" />
 
-    <framework src="GoogleToolboxForMac" type="podspec" spec="~> 2.1.4"/>
+    <framework src="GoogleToolboxForMac" type="podspec" spec="~> 2.1.4"/>-->
   </platform>
 
   <platform name="android">
